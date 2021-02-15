@@ -2,7 +2,7 @@
 
 image::icon.png[width=300]
 
-A identicon generator written in scala
+An identicon generator written in scala
 
 == Plans :
 * Better hashing for username field
@@ -12,6 +12,7 @@ A identicon generator written in scala
 === About
 
 Scadenticon is a identicon generator written in scala which aims to replicate identicon generation like in github, StackOverflow . 
+
 = To use :
 
 * Open src/main/scala/prop and change settings in the settings file's field to your liking . Make sure to remove the angular brackets from the username and filename fields.
