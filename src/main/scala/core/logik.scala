@@ -23,8 +23,7 @@ object logik {
     import scala.util.Random
 
     val rand : Random = new Random(System.currentTimeMillis())
-    val rand_id  = rand.nextInt(5)
-    val modelHsb = Color.RGBtoHSB(ragbad(rand_id), ragbad(rand_id), ragbad(rand_id),null)
+    val modelHsb = Color.RGBtoHSB(ragbad(rand.nextInt(5)), ragbad(rand.nextInt(5)), ragbad(rand.nextInt(5)),null)
 
     new Color(Color.HSBtoRGB(modelHsb(0),
       prop.settings.saturation, prop.settings.value))
