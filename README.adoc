@@ -9,11 +9,14 @@ A identicon generator written in scala
 * Bettter Color shuffling
 * Add better config support
 
-Scadenticon is a identicon generator written in scala . To use :
+=== About
+
+Scadenticon is a identicon generator written in scala which aims to replicate identicon generation like in github, StackOverflow . 
+= To use :
 
 * Open src/main/scala/prop and change settings in the settings file's field to your liking . Make sure to remove the angular brackets from the username and filename fields.
 
-* Next , open the root folder (scadenticon or scadenticon-master) and type :
+* Next , open the root folder (scadenticon or scadenticon-master), open Terminal/Windows Terminal and type :
 ----
 sbt
 ----
