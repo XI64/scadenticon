@@ -1,0 +1,32 @@
+= Scadenticon
+
+image::icon.png[width=300]
+
+A identicon generator written in scala
+
+== Plans :
+* Better hashing for username field
+* Bettter Color shuffling
+* Add better config support
+
+Scadenticon is a identicon generator written in scala . To use :
+
+* Open src/main/scala/prop and change settings in the settings file's field to your liking . Make sure to remove the angular brackets from the username and filename fields.
+
+* Next , open the root folder (scadenticon or scadenticon-master) and type :
+----
+sbt
+----
+* After sbt prompt appears type :
+----
+run
+----
+This should make a icon in your project folder. Enjoy !
+
+---
+. Requirements : SBT-Build tool and JDK (11, is what is used in this one)
+
+
+
+_My first scala project so please be considerate :3_
+
