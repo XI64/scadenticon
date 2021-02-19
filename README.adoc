@@ -13,9 +13,9 @@ Scadenticon is a identicon generator written in scala which aims to replicate id
 
 = To use :
 
-* Open src/main/scala/prop and change settings in the settings file's field to your liking . Make sure to remove the angular brackets from the username and filename fields.
+* Open src/main/scala/prop and change settings in the settings file's field to your liking . Make sure to remove the angular brackets from the username and filename fields and do NOT use any special symbols, only allowed characters are [a-z and 1-9].
 
-* Next , open the root folder (scadenticon or scadenticon-master), open Terminal/Windows Terminal and type :
+* Next , open the scadenticon folder, open Terminal/Windows Terminal and type :
 ----
 sbt
 ----
@@ -24,6 +24,7 @@ sbt
 run
 ----
 This should make a icon in your project folder. Enjoy !
+The first build will be a bit slow , but subsequent builds will be blaing fast.
 
 ---
 . Requirements : SBT and JDK (11, is what is used in this one)
