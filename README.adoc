@@ -1,6 +1,6 @@
 = Scadenticon
 
-image::icon.png[width=300]
+image::icon.jpg[width=450]
 
 An identicon generator written in scala
 
