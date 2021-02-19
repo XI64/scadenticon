@@ -5,13 +5,11 @@ image::icon.png[width=300]
 An identicon generator written in scala
 
 == Plans :
-* Better hashing for username field
-* Bettter Color shuffling
+* Better Color generator
 * Add better config support
-
 === About
 
-Scadenticon is a identicon generator written in scala which aims to replicate identicon generation like in github, StackOverflow . 
+Scadenticon is a identicon generator written in scala which aims to replicate identicon generation similar to github, StackOverflow . 
 
 = To use :
 
@@ -28,7 +26,7 @@ run
 This should make a icon in your project folder. Enjoy !
 
 ---
-. Requirements : SBT-Build tool and JDK (11, is what is used in this one)
+. Requirements : SBT and JDK (11, is what is used in this one)
 
 
 
