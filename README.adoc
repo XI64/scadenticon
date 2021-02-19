@@ -2,14 +2,15 @@
 
 image::icon.jpg[width=450]
 
-An identicon generator written in scala
+An (Github Style) identicon generator written in scala
 
 == Plans :
 * Better Color generator
 * Add better config support
 === About
 
-Scadenticon is a identicon generator written in scala which aims to replicate identicon generation similar to github, StackOverflow . 
+Scadenticon is a identicon generator written in scala which aims to replicate identicon generation (Github Style). 
+The exact algorithm used by github to generate hash or the color is unknown so this only imitates the github style.
 
 = To use :
 
@@ -24,7 +25,7 @@ sbt
 run
 ----
 This should make a icon in your project folder. Enjoy !
-The first build will be a bit slow , but subsequent builds will be blaing fast.
+The first build will be a bit slow , but subsequent builds will be blazing fast.
 
 ---
 . Requirements : SBT and JDK (11, is what is used in this one)
