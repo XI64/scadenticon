@@ -7,8 +7,9 @@ An (Github Style) identicon generator written in scala
 == Plans :
 * Better Color generator
 * Add better config support
-=== About
 
+
+=== About
 Scadenticon is a identicon generator written in scala which aims to replicate identicon generation (Github Style). 
 The exact algorithm used by github to generate hash or the color is unknown so this only imitates the github style.
 
