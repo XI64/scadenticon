@@ -37,7 +37,7 @@ sealed case class Identicon(colorSet : List[List[Boolean]], c : Color) {
       ImageIO.write(createImage(), "png", new File(fileName + ".png"))
     } catch {
       case e : Exception =>
-        throw new RuntimeException("Error on save", e)
+        throw new RuntimeException("Error while Saving. Please ensure proper file name", e)
     }
   }
 }
